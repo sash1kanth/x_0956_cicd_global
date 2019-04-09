@@ -1,0 +1,79 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-04-09T23:22:57.291Z",
+    "end": "2019-04-09T23:22:57.296Z",
+    "duration": 5,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "82c70d6d-9a03-4802-8cdf-f5675e0e77ae",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "e7357ab4-a48f-46aa-8ffb-26e06c1dc7a2",
+        "title": "Execute ATF: Execution Issue ",
+        "fullFile": "/Users/madds025/Documents/CICD/repos/7d0436c6-f6d1-446c-b380-5b652c70ea8f/test/atf-wrapper.js",
+        "file": "/test/atf-wrapper.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": ">>>>> Passing for now, but no test cases specified!",
+            "fullTitle": "Execute ATF: Execution Issue  >>>>> Passing for now, but no test cases specified!",
+            "timedOut": false,
+            "duration": 2,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect([], \"Please create test in ATF.\").to.have.lengthOf(0);\ndone();",
+            "err": {},
+            "isRoot": false,
+            "uuid": "46b93470-c0ec-439c-b1a2-eb43f085f069",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "46b93470-c0ec-439c-b1a2-eb43f085f069"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 2,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 30000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 30000
+  },
+  "copyrightYear": 2019
+}
