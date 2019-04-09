@@ -1,0 +1,23 @@
+{
+  "access": "package_private",
+  "active": true,
+  "api_name": "x_0956_cicd_global.CICDTestApp",
+  "client_callable": false,
+  "description": "Test",
+  "name": "CICDTestApp",
+  "script": {
+    "____see": "sn/CICD Global Test App - Sashi/Script Include/active_true/x_0956_cicd_global.CICDTestApp.js"
+  },
+  "sys_class_name": "sys_script_include",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-03-31 05:55:57",
+  "sys_id": "e86c1b01db6433002fc1e04a489619bf",
+  "sys_mod_count": 1,
+  "sys_name": "CICDTestApp",
+  "sys_package": "3e185741db2433002fc1e04a489619ec",
+  "sys_policy": "read",
+  "sys_scope": "3e185741db2433002fc1e04a489619ec",
+  "sys_update_name": "sys_script_include_e86c1b01db6433002fc1e04a489619bf",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-03-31 16:41:26"
+}
