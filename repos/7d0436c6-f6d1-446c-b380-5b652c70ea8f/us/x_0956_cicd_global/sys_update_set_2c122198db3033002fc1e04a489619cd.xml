@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-04-09 23:21:39">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="CICD Global Test App - Sashi">3e185741db2433002fc1e04a489619ec</application>
+<application_name>CICD Global Test App - Sashi</application_name>
+<application_scope>x_0956_cicd_global</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by CICD Process</description>
+<inserted/>
+<name>CICD Global Test App - Sashi – 1.0.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2c122198db3033002fc1e04a489619cd</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>cd-user</sys_created_by>
+<sys_created_on>2019-04-09 23:21:39</sys_created_on>
+<sys_id>4d2221d0db7033002fc1e04a4896192f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>cd-user</sys_updated_by>
+<sys_updated_on>2019-04-09 23:21:39</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CICD Global Test App - Sashi">3e185741db2433002fc1e04a489619ec</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_3e185741db2433002fc1e04a489619ec</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><enforce_license>log</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_model>none</license_model><logo/><menu/><name>CICD Global Test App - Sashi</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_0956_cicd_global</scope><scoped_administration>false</scoped_administration><short_description/><source>x_0956_cicd_global</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2019-03-31 05:36:48</sys_created_on><sys_id>3e185741db2433002fc1e04a489619ec</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-03-31 16:41:45</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>81756435</payload_hash>
+<remote_update_set display_value="CICD Global Test App - Sashi – 1.0.0">4d2221d0db7033002fc1e04a4896192f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>cd-user</sys_created_by>
+<sys_created_on>2019-04-09 23:21:39</sys_created_on>
+<sys_id>052221d0db7033002fc1e04a48961930</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a0467ef9d0000001</sys_recorded_at>
+<sys_updated_by>cd-user</sys_updated_by>
+<sys_updated_on>2019-04-09 23:21:39</sys_updated_on>
+<table/>
+<target_name>CICD Global Test App - Sashi</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>a8122198a2303300c23ea660ec7b1acf</update_guid>
+<update_guid_history>a8122198a2303300c23ea660ec7b1acf:81756435,5f40f19d02683300ac5602acd47985d0:81756435,ba181fc9f124330012be8beb3f049796:-415463012</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CICD Global Test App - Sashi">3e185741db2433002fc1e04a489619ec</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_e86c1b01db6433002fc1e04a489619bf</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_0956_cicd_global.CICDTestApp&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Test&lt;/description&gt;&lt;name&gt;CICDTestApp&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var CICDTestApp = Class.create();
+CICDTestApp.prototype = {
+    initialize: function() {
+    },
+	
+	test_app: function() {
+		gs.print("Testing app &gt;&gt;&gt;&gt; ");
+	},
+
+    type: 'CICDTestApp'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-03-31 05:55:57&lt;/sys_created_on&gt;&lt;sys_id&gt;e86c1b01db6433002fc1e04a489619bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;CICDTestApp&lt;/sys_name&gt;&lt;sys_package display_value="CICD Global Test App - Sashi" source="x_0956_cicd_global"&gt;3e185741db2433002fc1e04a489619ec&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="CICD Global Test App - Sashi"&gt;3e185741db2433002fc1e04a489619ec&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_e86c1b01db6433002fc1e04a489619bf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-31 16:41:26&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-610598632</payload_hash>
+<remote_update_set display_value="CICD Global Test App - Sashi – 1.0.0">4d2221d0db7033002fc1e04a4896192f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>cd-user</sys_created_by>
+<sys_created_on>2019-04-09 23:21:39</sys_created_on>
+<sys_id>0d2221d0db7033002fc1e04a48961930</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a0467efb00000001</sys_recorded_at>
+<sys_updated_by>cd-user</sys_updated_by>
+<sys_updated_on>2019-04-09 23:21:39</sys_updated_on>
+<table/>
+<target_name>CICDTestApp</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>2012ed9039703300c949776fec49612b</update_guid>
+<update_guid_history>2012ed9039703300c949776fec49612b:-610598632,5050359dac6833004cf2c5fa5239c211:-610598632,b23039d96768330013195683ab4bcbf4:506970539,a37c1b016264330073de79d97ceb976a:933209753</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
