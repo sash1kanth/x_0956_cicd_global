@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-05-01 20:02:45">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Disney Automation CICD">74338a9bdb0133002fc1e04a48961986</application>
+<application_name>Disney Automation CICD</application_name>
+<application_scope>x_0956_disney_auto</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by CICD Process</description>
+<inserted/>
+<name>Disney Automation CICD – 1.0.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1267829fdb0133002fc1e04a489619d4</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>cd-user</sys_created_by>
+<sys_created_on>2019-05-01 20:02:45</sys_created_on>
+<sys_id>31974613db4133002fc1e04a489619bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>cd-user</sys_updated_by>
+<sys_updated_on>2019-05-01 20:02:45</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Disney Automation CICD">74338a9bdb0133002fc1e04a48961986</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_8743c65fdb0133002fc1e04a48961915</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_0956_disney_auto.CICDAutomationScript&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;balh&lt;/description&gt;&lt;name&gt;CICDAutomationScript&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var CICDAutomationScript = Class.create();
+CICDAutomationScript.prototype = {
+    initialize: function() {
+    },
+	
+	_x_1: function () {
+		gs.log("Test");
+	},
+	
+	test_app: function (){
+		//TODO
+	},
+
+    type: 'CICDAutomationScript'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-05-01 19:44:52&lt;/sys_created_on&gt;&lt;sys_id&gt;8743c65fdb0133002fc1e04a48961915&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CICDAutomationScript&lt;/sys_name&gt;&lt;sys_package display_value="Disney Automation CICD" source="x_0956_disney_auto"&gt;74338a9bdb0133002fc1e04a48961986&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Disney Automation CICD"&gt;74338a9bdb0133002fc1e04a48961986&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_8743c65fdb0133002fc1e04a48961915&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-05-01 19:44:52&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>910344119</payload_hash>
+<remote_update_set display_value="Disney Automation CICD – 1.0.0">31974613db4133002fc1e04a489619bb</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>cd-user</sys_created_by>
+<sys_created_on>2019-05-01 20:02:45</sys_created_on>
+<sys_id>b9974613db4133002fc1e04a489619bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a74fd4b3e0000001</sys_recorded_at>
+<sys_updated_by>cd-user</sys_updated_by>
+<sys_updated_on>2019-05-01 20:02:45</sys_updated_on>
+<table/>
+<target_name>CICDAutomationScript</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>d667c213a941330042865f2f5defdcd4</update_guid>
+<update_guid_history>d667c213a941330042865f2f5defdcd4:910344119,4c834edbef01330008a4223654eb7cd9:910344119</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Disney Automation CICD">74338a9bdb0133002fc1e04a48961986</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_74338a9bdb0133002fc1e04a48961986</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><enforce_license>none</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_model>none</license_model><logo/><menu/><name>Disney Automation CICD</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_0956_disney_auto</scope><scoped_administration>false</scoped_administration><short_description/><source>x_0956_disney_auto</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-01 19:43:34</sys_created_on><sys_id>74338a9bdb0133002fc1e04a48961986</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-01 19:43:34</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>-770672309</payload_hash>
+<remote_update_set display_value="Disney Automation CICD – 1.0.0">31974613db4133002fc1e04a489619bb</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>cd-user</sys_created_by>
+<sys_created_on>2019-05-01 20:02:45</sys_created_on>
+<sys_id>f1974613db4133002fc1e04a489619bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a74fd4b2a0000001</sys_recorded_at>
+<sys_updated_by>cd-user</sys_updated_by>
+<sys_updated_on>2019-05-01 20:02:45</sys_updated_on>
+<table/>
+<target_name>Disney Automation CICD</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>9e67829f350133001fdd7a76df111fd5</update_guid>
+<update_guid_history>9e67829f350133001fdd7a76df111fd5:-770672309,0133065ff30133005f1c718ef66cdefc:-770672309</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
