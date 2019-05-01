@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-05-01 18:42:21">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Disney CICD Test 2">2d24f953db0133002fc1e04a489619dc</application>
+<application_name>Disney CICD Test 2</application_name>
+<application_scope>x_0956_disney_cicd</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by CICD Process</description>
+<inserted/>
+<name>Disney CICD Test 2 – 1.0.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2d157d53db0133002fc1e04a48961938</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>cd-user</sys_created_by>
+<sys_created_on>2019-05-01 18:42:21</sys_created_on>
+<sys_id>94357517db0133002fc1e04a48961962</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>cd-user</sys_updated_by>
+<sys_updated_on>2019-05-01 18:42:21</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Disney CICD Test 2">2d24f953db0133002fc1e04a489619dc</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_1544f5d3db0133002fc1e04a489619dc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_0956_disney_cicd.YOYOTest&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;YOYOTest&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var YOYOTest = Class.create();
+YOYOTest.prototype = {
+    initialize: function() {
+    },
+	
+	test_app: function () {
+		gs.log("Hey there");
+	},
+	
+	_x_004: function() {
+		
+	},
+
+    type: 'YOYOTest'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-05-01 18:39:32&lt;/sys_created_on&gt;&lt;sys_id&gt;1544f5d3db0133002fc1e04a489619dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;YOYOTest&lt;/sys_name&gt;&lt;sys_package display_value="Disney CICD Test 2" source="x_0956_disney_cicd"&gt;2d24f953db0133002fc1e04a489619dc&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Disney CICD Test 2"&gt;2d24f953db0133002fc1e04a489619dc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1544f5d3db0133002fc1e04a489619dc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-05-01 18:39:32&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1430895171</payload_hash>
+<remote_update_set display_value="Disney CICD Test 2 – 1.0.0">94357517db0133002fc1e04a48961962</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>cd-user</sys_created_by>
+<sys_created_on>2019-05-01 18:42:21</sys_created_on>
+<sys_id>54357517db0133002fc1e04a48961963</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a74b400800000001</sys_recorded_at>
+<sys_updated_by>cd-user</sys_updated_by>
+<sys_updated_on>2019-05-01 18:42:21</sys_updated_on>
+<table/>
+<target_name>YOYOTest</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>39157d5383013300a0c5455f0caa6d3c</update_guid>
+<update_guid_history>39157d5383013300a0c5455f0caa6d3c:-1430895171,b6847993ab0133001f5d773e9f07323a:-1430895171</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Disney CICD Test 2">2d24f953db0133002fc1e04a489619dc</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_2d24f953db0133002fc1e04a489619dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><enforce_license>none</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_model>none</license_model><logo/><menu/><name>Disney CICD Test 2</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_0956_disney_cicd</scope><scoped_administration>false</scoped_administration><short_description/><source>x_0956_disney_cicd</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-01 18:37:48</sys_created_on><sys_id>2d24f953db0133002fc1e04a489619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-01 18:37:48</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>1434380616</payload_hash>
+<remote_update_set display_value="Disney CICD Test 2 – 1.0.0">94357517db0133002fc1e04a48961962</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>cd-user</sys_created_by>
+<sys_created_on>2019-05-01 18:42:21</sys_created_on>
+<sys_id>5c357517db0133002fc1e04a48961962</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a74b4006c0000001</sys_recorded_at>
+<sys_updated_by>cd-user</sys_updated_by>
+<sys_updated_on>2019-05-01 18:42:21</sys_updated_on>
+<table/>
+<target_name>Disney CICD Test 2</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>31157d535e0133004ae1b7f0a4b41b3b</update_guid>
+<update_guid_history>31157d535e0133004ae1b7f0a4b41b3b:1434380616,3524f1d3ac01330098ea45510b84e3d2:1434380616</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
