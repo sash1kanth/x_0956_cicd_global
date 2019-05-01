@@ -1,0 +1,23 @@
+{
+  "access": "package_private",
+  "active": true,
+  "api_name": "x_0956_disney_auto.CICDAutomationScript",
+  "client_callable": false,
+  "description": "balh",
+  "name": "CICDAutomationScript",
+  "script": {
+    "____see": "sn/Disney Automation CICD/Script Include/active_true/x_0956_disney_auto.CICDAutomationScript.js"
+  },
+  "sys_class_name": "sys_script_include",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-05-01 19:44:52",
+  "sys_id": "8743c65fdb0133002fc1e04a48961915",
+  "sys_mod_count": 0,
+  "sys_name": "CICDAutomationScript",
+  "sys_package": "74338a9bdb0133002fc1e04a48961986",
+  "sys_policy": "read",
+  "sys_scope": "74338a9bdb0133002fc1e04a48961986",
+  "sys_update_name": "sys_script_include_8743c65fdb0133002fc1e04a48961915",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-05-01 19:44:52"
+}
